@@ -8,16 +8,16 @@ This project is a Java-based application that generates population reports using
 
 8 out of 8 requirements implemented (100%).
 
-| ID | Requirement           | Met |
-| -- | --------------------- | --- |
-| 1  | Countries Report      | Yes |
-| 2  | Cities Report         | Yes |
-| 3  | Capital Cities Report | Yes |
-| 4  | Top N Cities Report   | Yes |
-| 5  | World Population      | Yes |
-| 6  | Continent Population  | Yes |
-| 7  | Region Population     | Yes |
-| 8  | Country Population    | Yes |
+| ID | Requirement           | Met | Screenshot                               |
+| -- | --------------------- | --- | ---------------------------------------- |
+| 1  | Countries Report      | Yes | ![](screenshots/countries.png)           |
+| 2  | Cities Report         | Yes | ![](screenshots/cities.png)              |
+| 3  | Capital Cities Report | Yes | ![](screenshots/capitals.png)            |
+| 4  | Top N Cities Report   | Yes | ![](screenshots/topNcities.png)          |
+| 5  | World Population      | Yes | ![](screenshots/worldPopulation.png)     |
+| 6  | Continent Population  | Yes | ![](screenshots/continentPopulation.png) |
+| 7  | Region Population     | Yes | ![](screenshots/regionPopulation.png)    |
+| 8  | Country Population    | Yes | ![](screenshots/cityPopulation.png)      |
 
 ## Technologies Used
 
@@ -34,16 +34,18 @@ This project is a Java-based application that generates population reports using
 * Maven for dependency management
 * Docker support for containerization
 * GitHub Actions for continuous integration
-* JUnit for unit testing
+* JUnit 5 for unit testing
 
 ## How to Run
 
 1. Clone the repository.
-2. Import the world database into MySQL.
+2. Import the World database into MySQL.
 3. Update database connection details if required.
 4. Build the project:
 
+```bash
 mvn clean package
+```
 
 5. Run the application from IntelliJ IDEA or using the generated JAR file.
 
@@ -51,9 +53,15 @@ mvn clean package
 
 Run the following command:
 
+```bash
 mvn test
+```
 
 All unit tests should pass successfully.
+
+## Screenshots
+
+The screenshots demonstrating all implemented requirements are available in the `screenshots` folder.
 
 ## Author
 

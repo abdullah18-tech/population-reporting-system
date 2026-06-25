@@ -1,4 +1,4 @@
-    package com.ali;
+package com.abdullah;
 
 import java.util.ArrayList;
 
@@ -37,9 +37,9 @@ public class App {
 //                    city.population
 //            );
 //        }
-
-        ArrayList<CapitalCity> capitals = db.getCapitalCities();
-
+//
+//        ArrayList<CapitalCity> capitals = db.getCapitalCities();
+//
 //        for(CapitalCity capital : capitals)
 //        {
 //            System.out.printf(
@@ -50,8 +50,8 @@ public class App {
 //            );
 //        }
 
-        ArrayList<City> cities = db.getTopNCities(10);
-
+//        ArrayList<City> cities = db.getTopNCities(10);
+//
 //        for(City city : cities)
 //        {
 //            System.out.printf(
@@ -62,7 +62,7 @@ public class App {
 //                    city.population
 //            );
 //        }
-
+//
 //        long population = db.getWorldPopulation();
 //
 //        System.out.println("World Population: " + population);
@@ -78,8 +78,8 @@ public class App {
 //        );
 
         System.out.println(
-                "Pakistan Population: " +
-                        db.getCountryPopulation("Pakistan")
+                "Australia Population: " +
+                        db.getCountryPopulation("Australia")
         );
     }
 }

@@ -1,4 +1,4 @@
-package com.ali;
+package com.abdullah;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
